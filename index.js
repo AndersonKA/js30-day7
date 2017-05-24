@@ -59,3 +59,6 @@ const index = comments.findIndex(comment =>
     ...comments.slice(0, index),
     ...comments.slice(index + 1),
   ];
+
+// type "console.table(comments)" without the quotes in the console to see the original
+// then type "console.table(newComments)" without the quotes to see the updated version
